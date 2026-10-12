@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# 秘密情報
+.env
+.env.*
+!.env.example
+
+# 依存・ビルド成果物
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# エディタ・ログ
+.vscode/
+.idea/
+*.log
+
+# Claude Code の個人用設定（共有用の .claude/settings.json はコミットする）
+.claude/settings.local.json
